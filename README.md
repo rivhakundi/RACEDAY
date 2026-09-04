@@ -31,3 +31,6 @@ This folder contains the three Part 1 deliverables for the RaceDay system.
 keys, and the same cardinalities (1:1 for Users-UserProfiles and Enrolments-Results;
 1:M everywhere else). No deliberate deviations were introduced between the diagram and
 the script.
+
+<img width="944" height="471" alt="image" src="https://github.com/user-attachments/assets/657a9763-3270-481e-a8db-0aad4d1769ba" />
+
