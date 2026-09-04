@@ -1,11 +1,16 @@
 name: RaceDay API CI
 
+# NOTE: push/pull_request triggers are disabled for now - there is no .NET
+# project in the repo yet for `dotnet restore` to find, so this workflow
+# would fail on every commit. Run it manually (Actions tab > Run workflow)
+# once the Part 2 ASP.NET Core project exists, then re-enable the triggers
+# below by uncommenting them.
 on:
-  push:
-    branches: [ "main", "develop" ]
-  pull_request:
-    branches: [ "main", "develop" ]
   workflow_dispatch:
+  # push:
+  #   branches: [ "main", "develop" ]
+  # pull_request:
+  #   branches: [ "main", "develop" ]
 
 jobs:
   build-and-test:
