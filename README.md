@@ -24,6 +24,13 @@ same check constraints (`CK_Users_Role`, `CK_Events_EventType`, `CK_Events_Dista
 and the same unique constraints (`Users.Email`, `UserProfiles.UserId`,
 `Enrolments.(ParticipantId, EventId)`, `Results.EnrolmentId`).
 
+`schema.sql` matches `erd.png` exactly - the same six entities, the same primary/foreign
+keys, and the same cardinalities (1:1 for Users-UserProfiles and Enrolments-Results;
+1:M everywhere else). No deliberate deviations were introduced between the diagram and
+the script.
+
+<img width="944" height="471" alt="image" src="https://github.com/user-attachments/assets/657a9763-3270-481e-a8db-0aad4d1769ba" />
+
 ## Running locally
 
 1. **Restore packages**
