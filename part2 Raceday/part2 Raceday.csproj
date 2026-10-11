@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<!-- Keep runtime identifiers if you still need them for publishing -->
+		<RuntimeIdentifiers>win-x64;win-arm64;osx-arm64;linux-x64;linux-arm64;linux-musl-x64</RuntimeIdentifiers>
+		<OutputType>Exe</OutputType>
+	</PropertyGroup>
+
+	<!-- Keep any non-source files you need packaged -->
+	<ItemGroup>
+		<None Include=".mcp\server.json" Pack="true" PackagePath="/.mcp/" />
+		<None Include="README.md" Pack="true" PackagePath="/" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<!-- EF Core provider for SQL Server -->
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.12" />
+		<!-- Swagger / OpenAPI -->
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.0" />
+		<!-- Optional: explicit cookie auth package (usually provided by the Web SDK/shared framework) -->
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="10.0.12" />
+	</ItemGroup>
+
+</Project>

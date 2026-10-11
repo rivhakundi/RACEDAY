@@ -1,0 +1,6 @@
+C:\Users\mudau\OneDrive\Documents\GitHub\RACEDAY\part2 Raceday\obj\Debug\net10.0\win-x64\part2 Raceday.csproj.AssemblyReference.cache
+C:\Users\mudau\OneDrive\Documents\GitHub\RACEDAY\part2 Raceday\obj\Debug\net10.0\win-x64\part2 Raceday.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mudau\OneDrive\Documents\GitHub\RACEDAY\part2 Raceday\obj\Debug\net10.0\win-x64\part2 Raceday.AssemblyInfoInputs.cache
+C:\Users\mudau\OneDrive\Documents\GitHub\RACEDAY\part2 Raceday\obj\Debug\net10.0\win-x64\part2 Raceday.AssemblyInfo.cs
+C:\Users\mudau\OneDrive\Documents\GitHub\RACEDAY\part2 Raceday\obj\Debug\net10.0\win-x64\part2 Raceday.csproj.CoreCompileInputs.cache
+C:\Users\mudau\OneDrive\Documents\GitHub\RACEDAY\part2 Raceday\obj\Debug\net10.0\win-x64\part2 Raceday.sourcelink.json
