@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Controllers"
+    "\\Controllers",
+    "\\Data"
   ],
-  "SelectedNode": "\\Controllers\\UserController.cs",
+  "SelectedNode": "\\Data\\RacedayDBContext.cs",
   "PreviewInSolutionExplorer": false
 }
