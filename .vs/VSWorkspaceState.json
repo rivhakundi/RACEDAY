@@ -1,13 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Controllers",
-    "\\Data",
-    "\\DTOs",
-    "\\DTOs\\Auth",
-    "\\DTOs\\Profile",
-    "\\Models"
+    "\\Controllers"
   ],
-  "SelectedNode": "\\Program.cs",
+  "SelectedNode": "\\Controllers\\UserController.cs",
   "PreviewInSolutionExplorer": false
 }

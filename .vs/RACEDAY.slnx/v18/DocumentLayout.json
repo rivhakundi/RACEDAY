@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Controllers\\AuthControlleer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\AuthControlleer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\NewFile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NewFile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\UserRole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,22 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\EventType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\EventType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\Event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\Enrolment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Enrolment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\Category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\DTOs\\Profile\\UpdateProfileRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\Profile\\UpdateProfileRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\DTOs\\Profile\\ProfileResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,10 +63,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\RaceDayDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Controllers\\UsersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\UsersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -82,241 +74,189 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAuwE0AAAAVAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AuthControlleer.cs",
+              "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Controllers\\AuthControlleer.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthControlleer.cs",
+              "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Controllers\\AuthControlleer.cs",
+              "RelativeToolTip": "Controllers\\AuthControlleer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T18:11:54.571Z",
+              "WhenOpened": "2026-10-11T18:27:37.473Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\UserRole.cs",
-              "RelativeDocumentMoniker": "Models\\UserRole.cs",
-              "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\UserRole.cs",
-              "RelativeToolTip": "Models\\UserRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "program.cs",
+              "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\program.cs",
+              "RelativeDocumentMoniker": "program.cs",
+              "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\program.cs",
+              "RelativeToolTip": "program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T18:11:38.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserProfile.cs",
-              "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\UserProfile.cs",
-              "RelativeDocumentMoniker": "Models\\UserProfile.cs",
-              "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\UserProfile.cs",
-              "RelativeToolTip": "Models\\UserProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T18:11:23.828Z",
+              "WhenOpened": "2026-10-11T18:23:11.145Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T18:11:08.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Result.cs",
-              "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\Result.cs",
-              "RelativeDocumentMoniker": "Models\\Result.cs",
-              "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\Result.cs",
-              "RelativeToolTip": "Models\\Result.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T18:10:51.233Z",
+              "Title": "NewFile",
+              "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\NewFile",
+              "RelativeDocumentMoniker": "NewFile",
+              "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\NewFile",
+              "RelativeToolTip": "NewFile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-10-11T18:18:28.588Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\UserProfile.cs",
+              "RelativeDocumentMoniker": "Models\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\UserProfile.cs",
+              "RelativeToolTip": "Models\\UserProfile.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T18:11:23.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T18:11:08.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\Result.cs",
+              "RelativeDocumentMoniker": "Models\\Result.cs",
+              "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\Result.cs",
+              "RelativeToolTip": "Models\\Result.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T18:10:51.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T17:58:20.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "Models\\UserRole.cs",
+              "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\UserRole.cs",
+              "RelativeToolTip": "Models\\UserRole.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T18:11:38.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "EventType.cs",
               "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\EventType.cs",
               "RelativeDocumentMoniker": "Models\\EventType.cs",
               "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\EventType.cs",
               "RelativeToolTip": "Models\\EventType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T18:10:20.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Enrolment.cs",
-              "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\Enrolment.cs",
-              "RelativeDocumentMoniker": "Models\\Enrolment.cs",
-              "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\Enrolment.cs",
-              "RelativeToolTip": "Models\\Enrolment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T18:09:13.027Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\Event.cs",
-              "RelativeDocumentMoniker": "Models\\Event.cs",
-              "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\Event.cs",
-              "RelativeToolTip": "Models\\Event.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T18:08:41.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Models\\Category.cs",
-              "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Models\\Category.cs",
-              "RelativeToolTip": "Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T18:08:43.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-11T18:10:20.627Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "UpdateProfileRequest.cs",
-              "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\DTOs\\Profile\\UpdateProfileRequest.cs",
-              "RelativeDocumentMoniker": "DTOs\\Profile\\UpdateProfileRequest.cs",
-              "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\DTOs\\Profile\\UpdateProfileRequest.cs",
-              "RelativeToolTip": "DTOs\\Profile\\UpdateProfileRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T18:08:27.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "ProfileResponse.cs",
               "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\DTOs\\Profile\\ProfileResponse.cs",
               "RelativeDocumentMoniker": "DTOs\\Profile\\ProfileResponse.cs",
               "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\DTOs\\Profile\\ProfileResponse.cs",
               "RelativeToolTip": "DTOs\\Profile\\ProfileResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T18:08:00.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-11T18:08:00.05Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "UserResponse.cs",
               "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\DTOs\\Auth\\UserResponse.cs",
               "RelativeDocumentMoniker": "DTOs\\Auth\\UserResponse.cs",
               "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\DTOs\\Auth\\UserResponse.cs",
               "RelativeToolTip": "DTOs\\Auth\\UserResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T18:07:30.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-11T18:07:30.253Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "RegisterRequest.cs",
               "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\DTOs\\Auth\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "DTOs\\Auth\\RegisterRequest.cs",
               "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\DTOs\\Auth\\RegisterRequest.cs",
               "RelativeToolTip": "DTOs\\Auth\\RegisterRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T18:07:12.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-11T18:07:12.01Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\DTOs\\Auth\\LoginRequest.cs",
               "RelativeDocumentMoniker": "DTOs\\Auth\\LoginRequest.cs",
               "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\DTOs\\Auth\\LoginRequest.cs",
               "RelativeToolTip": "DTOs\\Auth\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T18:00:41.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-11T18:00:41.731Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "SeedData.cs",
               "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Data\\SeedData.cs",
               "RelativeDocumentMoniker": "Data\\SeedData.cs",
               "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Data\\SeedData.cs",
               "RelativeToolTip": "Data\\SeedData.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T18:00:05.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-11T18:00:05.165Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "RaceDayDbContext.cs",
               "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Data\\RaceDayDbContext.cs",
               "RelativeDocumentMoniker": "Data\\RaceDayDbContext.cs",
               "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Data\\RaceDayDbContext.cs",
               "RelativeToolTip": "Data\\RaceDayDbContext.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAQwIEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T17:59:56.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-11T17:59:56.369Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Controllers\\UsersController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAQwEkAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T17:58:20.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 15,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\mudau\\OneDrive\\Documents\\GitHub\\RACEDAY\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T17:57:47.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-11T17:57:47.656Z"
             }
           ]
         }
