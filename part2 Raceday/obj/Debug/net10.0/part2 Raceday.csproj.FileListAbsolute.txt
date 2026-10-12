@@ -1,8 +1,0 @@
-C:\Users\mudau\OneDrive\Documents\GitHub\RACEDAY\part2 Raceday\obj\Debug\net10.0\part2 Raceday.csproj.AssemblyReference.cache
-C:\Users\mudau\OneDrive\Documents\GitHub\RACEDAY\part2 Raceday\obj\Debug\net10.0\rpswa.dswa.cache.json
-C:\Users\mudau\OneDrive\Documents\GitHub\RACEDAY\part2 Raceday\obj\Debug\net10.0\part2 Raceday.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mudau\OneDrive\Documents\GitHub\RACEDAY\part2 Raceday\obj\Debug\net10.0\part2 Raceday.AssemblyInfoInputs.cache
-C:\Users\mudau\OneDrive\Documents\GitHub\RACEDAY\part2 Raceday\obj\Debug\net10.0\part2 Raceday.AssemblyInfo.cs
-C:\Users\mudau\OneDrive\Documents\GitHub\RACEDAY\part2 Raceday\obj\Debug\net10.0\part2 Raceday.csproj.CoreCompileInputs.cache
-C:\Users\mudau\OneDrive\Documents\GitHub\RACEDAY\part2 Raceday\obj\Debug\net10.0\part2 Raceday.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\mudau\OneDrive\Documents\GitHub\RACEDAY\part2 Raceday\obj\Debug\net10.0\part2 Raceday.sourcelink.json

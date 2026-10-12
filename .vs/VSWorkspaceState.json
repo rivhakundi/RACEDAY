@@ -1,12 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Controllers",
-    "\\Data",
-    "\\part2 Raceday\\obj",
-    "\\part2 Raceday\\Properties",
-    "\\part2 Raceday\\Tools"
+    ""
   ],
-  "SelectedNode": "\\Data\\RacedayDBContext.cs",
+  "SelectedNode": "\\docs",
   "PreviewInSolutionExplorer": false
 }
