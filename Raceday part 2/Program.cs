@@ -4,7 +4,7 @@ using Swashbuckle.AspNetCore.SwaggerUI; // add this using
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Ensure this line is present and correctly uses "DefaultConnection"
 builder.Services.AddDbContext<RaceDayDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
