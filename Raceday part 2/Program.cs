@@ -1,45 +1,16 @@
-// Program.cs
-using Microsoft.EntityFrameworkCore;
-using Swashbuckle.AspNetCore.SwaggerUI; // add this using
+using RaceDay.Mvc.Services;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// Ensure this line is present and correctly uses "DefaultConnection"
-builder.Services.AddDbContext<RaceDayDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-// Configure Session State
+builder.Services.AddControllersWithViews();
 builder.Services.AddDistributedMemoryCache();
-builder.Services.AddSession(options =>
-{
-    options.IdleTimeout = TimeSpan.FromMinutes(30);
-    options.Cookie.HttpOnly = true;
-    options.Cookie.IsEssential = true;
+builder.Services.AddSession(o => { o.IdleTimeout = TimeSpan.FromMinutes(30); o.Cookie.HttpOnly = true; o.Cookie.IsEssential = true; o.Cookie.SecurePolicy = CookieSecurePolicy.SameAsRequest; });
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddHttpClient<RaceDayApiClient>(client => {
+    client.BaseAddress = new Uri(builder.Configuration["Api:BaseUrl"] ?? "http://localhost:5099/");
+    client.Timeout = TimeSpan.FromSeconds(30);
 });
-
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
 var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "RaceDay API v1");
-    });
-}
-
-app.UseHttpsRedirection();
-
-// Enable Session Middleware
-app.UseSession();
-
-app.UseAuthorization();
-
-app.MapControllers();
-
+if (!app.Environment.IsDevelopment()) { app.UseExceptionHandler("/Home/Error"); app.UseHsts(); }
+app.UseHttpsRedirection(); app.UseStaticFiles(); app.UseRouting(); app.UseSession();
+app.MapControllerRoute(name: "default", pattern: "{controller=Home}/{action=Index}/{id?}");
 app.Run();

@@ -1,50 +1,18 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc;
+using RaceDay.Mvc.Models;
+using RaceDay.Mvc.Services;
 
-[Route("api/[controller]")]
-[ApiController]
-public class EventsController : ControllerBase
+namespace RaceDay.Mvc.Controllers;
+public class EventsController : Controller
 {
-    private readonly RaceDayDbContext _context;
-
-    public EventsController(RaceDayDbContext context)
+    private readonly RaceDayApiClient _api; public EventsController(RaceDayApiClient api) => _api = api;
+    public async Task<IActionResult> Details(int id) { var events = await _api.GetAsync<List<EventViewModel>>("api/events") ?? new(); var item = events.FirstOrDefault(e => e.Id == id); return item == null ? NotFound() : View(item); }
+    [HttpPost, ValidateAntiForgeryToken] public async Task<IActionResult> Enrol(EnrolViewModel model)
     {
-        _context = context;
-    }
-
-    [HttpGet]
-    public async Task<IActionResult> GetEvents()
-    {
-        var events = await _context.Events.Include(e => e.Categories).ToListAsync();
-        return Ok(events);
-    }
-
-    [HttpPost]
-    public async Task<IActionResult> CreateEvent([FromBody] EventDto dto)
-    {
-        // Check session for Organiser role authentication
-        var role = HttpContext.Session.GetString("UserRole");
-        var userId = HttpContext.Session.GetInt32("UserId");
-
-        if (string.IsNullOrEmpty(role) || role != "Organiser" || userId == null)
-            return Unauthorized("Only authenticated Organisers can create events.");
-
-        var newEvent = new Event
-        {
-            Name = dto.Name,
-            Description = dto.Description,
-            Date = dto.Date,
-            Location = dto.Location,
-            Distance = dto.Distance,
-            EventType = dto.EventType,
-            OrganiserId = userId.Value
-        };
-
-        _context.Events.Add(newEvent);
-        await _context.SaveChangesAsync();
-
-        return CreatedAtAction(nameof(GetEvents), new { id = newEvent.Id }, newEvent);
+        if (HttpContext.Session.GetString("Role") != "Participant") return RedirectToAction("Login", "Account");
+        if (!ModelState.IsValid) { TempData["Error"] = "Please select an available category."; return RedirectToAction(nameof(Details), new { id = model.EventId }); }
+        var r = await _api.SendAsync(HttpMethod.Post, "api/enrolments", new { model.EventId, model.CategoryId });
+        TempData[r.Ok ? "Success" : "Error"] = r.Ok ? "You have successfully enrolled for this event." : r.Message;
+        return RedirectToAction(nameof(Details), new { id = model.EventId });
     }
 }
-
-public record EventDto(string Name, string Description, DateTime Date, string Location, double Distance, string EventType);
