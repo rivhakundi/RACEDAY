@@ -1,0 +1,6 @@
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\js\site.js
+C:\Users\mudau\Downloads\RaceDay_Part3_Root404_Fixed\Raceday part 2\wwwroot\js\site.js
+C:\Users\mudau\Downloads\RaceDay_Part3_Root404_Fixed\Raceday part 2\wwwroot\favicon.ico
+C:\Users\mudau\Downloads\RaceDay_Part3_Root404_Fixed\Raceday part 2\wwwroot\css\site.css
