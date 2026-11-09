@@ -3,11 +3,11 @@
     "Name": "New Profile",
     "Projects": [
       {
-        "Path": "..\\RaceDay.Mvc\\RaceDay.Mvc.csproj",
+        "Path": "Raceday part 2.csproj",
         "Action": "Start"
       },
       {
-        "Path": "Raceday part 2.csproj",
+        "Path": "RaceDay.Mvc\\RaceDay.Mvc.csproj",
         "Action": "Start"
       }
     ]

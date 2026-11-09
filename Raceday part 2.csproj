@@ -5,16 +5,17 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Raceday_part_2</RootNamespace>
+    <UserSecretsId>197c5eaf-51bc-4a28-a2c5-dcf70e1895de</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- Keep the nested test project source out of the API compilation. -->
+    <!-- This is the API project. The MVC project and the old nested API copy
+         are separate projects and must not be compiled into this assembly. -->
+    <Compile Remove="RaceDay.Mvc/**/*.cs" />
+    <Compile Remove="Raceday part 2/**/*.cs" />
     <Compile Remove="RaceDay.Tests/**/*.cs" />
-    <Content Remove="RaceDay.Tests/**" />
-    <None Remove="RaceDay.Tests/**" />
-    <PackageReference Include="Microsoft.Bot.Configuration" Version="4.23.1" />
-    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="10.0.13" />
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.13" />
+    <Content Remove="RaceDay.Mvc/**;Raceday part 2/**;RaceDay.Tests/**" />
+    <None Remove="RaceDay.Mvc/**;Raceday part 2/**;RaceDay.Tests/**" />
     <PackageReference Include="Azure.Storage.Blobs" Version="12.25.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.13">
       <PrivateAssets>all</PrivateAssets>

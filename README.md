@@ -72,3 +72,16 @@ the script.
   project can use `WebApplicationFactory<Program>` for integration-style tests.
 - Role enforcement for Organiser-only / Participant-only endpoints will be added
   via `[Authorize(Roles = "Organiser")]` etc. as those controllers are built.
+
+
+## Run the API and MVC together (Windows / VS Code)
+
+The API project is the root `Raceday part 2.csproj` file. The MVC project is `RaceDay.Mvc/RaceDay.Mvc.csproj`. The older `Raceday part 2/` directory is a duplicate/legacy copy and is deliberately excluded from the root API build. Do not run its nested project file.
+
+1. Open the `RACEDAY` folder (the folder containing `Raceday part 2.csproj`) in VS Code.
+2. In VS Code, choose **Terminal > Run Task > RaceDay: Start API + MVC**.
+3. Keep both PowerShell windows open.
+4. API Swagger: `http://localhost:5099/swagger`
+5. MVC website: `http://localhost:5080`
+
+The MVC API base URL is configured in `RaceDay.Mvc/appsettings.json` as `http://localhost:5099/`. The API uses the `http` launch profile on port 5099. Ensure SQL Server LocalDB is installed and available; the API uses the `RaceDayDb` LocalDB database and applies EF Core migrations at startup.

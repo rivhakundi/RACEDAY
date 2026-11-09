@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("197c5eaf-51bc-4a28-a2c5-dcf70e1895de")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Raceday part 2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e287882835c2804bec503dd4ebc6ed6699b039d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Raceday part 2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Raceday part 2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
